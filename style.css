@@ -1,0 +1,511 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+body.auth-page {
+  background-image: url("imagenes/Apollofondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+header {
+  background-color: #859502;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  height: 65px;
+}
+
+.titulo {
+  font-size: 24px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.contenedorlogo {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-block img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-block.left {
+  flex-direction: row;
+}
+
+.info-block.right {
+  flex-direction: row-reverse;
+}
+
+.auth-page {
+  background-image: url("imagenes/Apollofondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+body.auth-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-page .contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-page .formulario {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+  max-width: 400px;
+  width: 100%;
+}
+
+.auth-page h2 {
+  text-align: center;
+  color: black;
+  font-family: "Lobster", sans-serif;
+}
+
+.auth-page input,
+.auth-page button {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.auth-page button {
+  background-color: #859502;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.auth-page button:hover {
+  background-color: #98ac02;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+
+.car {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  max-width: 250px;
+  margin: 10px;
+  width: 250px; 
+  height: 400px;
+  justify-content: space-between;
+}
+
+.car img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  height: 180px; 
+  object-fit: cover;
+}
+
+.car h3 {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.car p {
+  color: #555;
+}
+
+.price {
+  font-weight: bold;
+  color: #859502;
+}
+
+.contact-page {
+  background-image: url("imagenes/FordGT40MkII.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.informacion {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  flex: 1;
+}
+
+.informacion h2 {
+  color: #333;
+}
+
+.informacion ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.informacion li {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.contacto {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  flex: 1;
+}
+
+.contacto h3 {
+  color: #333;
+  text-align: center;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacto label {
+  font-size: 14px;
+  color: #555;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contacto button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #859502;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contacto button:hover {
+  background-color: #6d7b01;
+}
+
+.modal {
+  display: none;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close-btn {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.favoritos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.car.favorito {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car.favorito:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.car-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.car-details {
+  padding: 10px;
+}
+
+.car-details h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.car-details p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.car {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  max-width: 300px;
+  height: 400px; 
+  display: inline-block;
+  vertical-align: top;
+}
+
+.car img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.car button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.car h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.car p {
+  font-size: 0.9rem;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.testimonios {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonios h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.opinion-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.opinion {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.opinion:hover {
+  transform: translateY(-5px);
+}
+
+.opinion p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.opinion footer {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.eliminar-favorito {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.mensaje-confirmacion {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #28a745; /* Verde de éxito */
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+footer {
+  background-color: #859502;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .info-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-block img {
+    max-width: 100%;
+  }
+
+  .auth-page .formulario {
+    max-width: 90%;
+  }
+}
